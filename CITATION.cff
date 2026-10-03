@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: "TUT-BM-Dataset: TUT-BM_version1 Bone Marrow Cytology Image Dataset"
+message: "If you use TUT-BM_version1 or this repository in your research, please cite the dataset and the associated publication."
+type: dataset
+
+authors:
+  - family-names: "[Asgharzadeh Bonab]"
+    given-names: "Zahra"
+    affiliation:
+      - "Faculty of Biomedical Engineering, Sahand University of Technology, Sahand New Town, Tabriz, Iran"
+      - "Biomedical Engineering Research Center, Sahand University of Technology, Sahand New Town, Tabriz, Iran"
+
+
+    family-names: "Shamekhi"
+    given-names: "Sina"
+    affiliation:
+      - "Faculty of Biomedical Engineering, Sahand University of Technology, Sahand New Town, Tabriz, Iran"
+      - "Biomedical Engineering Research Center, Sahand University of Technology, Sahand New Town, Tabriz, Iran"
+
+    family-names: "Talebi"
+    given-names: "Mehdi"
+    affiliation:
+      - "Department of Applied Cell Sciences, Faculty of Advanced Medical Science and Technologies, Tabriz University of Medical Sciences, Tabriz, Iran"
+  
+repository-code: "https://github.com/[YOUR-GITHUB-USERNAME]/TUT-BM-Dataset"
+
+keywords:
+  - bone marrow cytology
+  - bone marrow images
+  - leukocyte classification
+  - medical image analysis
+  - deep learning
+  - computer vision
+  - class imbalance
+  - hematology
+  -single cell image
+
+abstract: "TUT-BM_version1 is a curated image dataset of bone marrow cytology containing images representing 19 leukocyte cell types. The dataset was developed for research on automated bone marrow image analysis, leukocyte classification, and machine-learning methods under naturally occurring class imbalance."
+
+license: "To be specified"
