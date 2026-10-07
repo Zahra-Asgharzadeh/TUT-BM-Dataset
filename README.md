@@ -209,64 +209,7 @@ The complete class counts and inclusion status are provided in:
 ---
 
 ## Dataset Structure
-
-The repository is organized to separate dataset documentation, metadata, analysis, preprocessing information, baseline validation, and supporting materials.
-
-```text
-TUT-BM-Dataset/
-│
-├── README.md
-├── CITATION.cff
-├── LICENSE
-├── CHANGELOG.md
-├── SETUP_GUIDE.md
-│
-├── metadata/
-│   ├── class_counts.csv
-│   ├── dataset_metadata.csv
-│   └── README.md
-│
-├── dataset_analysis/
-│   ├── class_distribution.py
-│   ├── dataset_statistics.py
-│   └── README.md
-│
-├── preprocessing/
-│   ├── README.md
-│   └── preprocessing_description.md
-│
-├── baseline/
-│   ├── README.md
-│   ├── resnet50/
-│   │   ├── train.py
-│   │   ├── evaluate.py
-│   │   └── config.py
-│   └── results/
-│       ├── metrics.csv
-│       └── confusion_matrix.png
-│
-├── figures/
-│   ├── dataset_overview.png
-│   ├── class_distribution.png
-│   └── confusion_matrix.png
-│
-├── tables/
-│   └── baseline_results.csv
-│
-├── examples/
-│   └── sample_images/
-│
-└── documentation/
-    ├── annotation_protocol.md
-    ├── data_structure.md
-    ├── quality_control.md
-    └── excluded_classes.md
-```
-
-The repository structure may be expanded as additional documentation, analysis scripts, and benchmark resources are added.
-
 ---
-
 ## Intended Use
 
 TUT-BM_version1 is intended for research and educational applications, including:
@@ -294,32 +237,6 @@ Data augmentation was applied to the training data, including image flipping, ro
 The model was trained using categorical cross-entropy loss and the Nadam optimizer.
 
 No explicit class rebalancing, loss weighting, or oversampling was applied during the baseline experiment.
-
-### Baseline Results
-
-| Metric | ResNet-50 |
-|---|---:|
-| Accuracy | 70.69% |
-| Macro-F1 | 49.04% |
-
-The independent test set contains **2,305 images from the 19 leukocyte categories**.
-
-Detailed experimental procedures, per-class results, and additional analyses will be provided in the associated scientific publication and repository documentation.
-
----
-
-## Independent Test Set
-
-An independent test set was used for technical validation of the 19-class leukocyte benchmark.
-
-The test set contains:
-
-**2,305 single-cell images across 19 leukocyte categories.**
-
-The number of samples varies substantially between classes, reflecting the natural class distribution of the dataset.
-
-This characteristic makes the dataset suitable for evaluating classification methods under realistic class-frequency differences.
-
 ---
 
 ## Reproducibility
@@ -366,7 +283,7 @@ Future versions may also include expanded annotations, additional cell categorie
 
 The complete dataset is intended to be publicly available through **Figshare**.
 
-**Dataset DOI:** `10.6084/m9.figshare.34070256`
+**Dataset DOI:** `10.6084/m9.figshare.34070649
 
 The Figshare record will serve as the primary distribution point for the dataset, while this GitHub repository provides documentation, metadata, analysis resources, and supporting materials.
 
@@ -374,7 +291,7 @@ The Figshare record will serve as the primary distribution point for the dataset
 
 ## Associated Publication
 
-A detailed description of the dataset, including data acquisition, annotation, quality control, dataset characteristics, and technical validation, is being prepared for submission to **Scientific Data**.
+A detailed description of the dataset, including data acquisition, annotation, quality control, dataset characteristics, and technical validation, is being prepared for submission to *...
 
 **Publication:** To be added after publication.
 
